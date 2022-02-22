@@ -55,12 +55,36 @@ picture {
 }
 
 /* Base */
+
 body {
   font-family: var(--font-sans);
 }
-/* Layout */
+
+.contenedor{
+  display: flex;
+}
+.contenedor .horizontal{}
+.contenedor .vertical{}
+
 
 /* Componentes */
+
+.contenedor .horizontal {
+ width: 350px;
+  height: 197px;
+ border: 10px solid rgb(5, 255, 255);
+ display: flex;
+
+}
+
+.contenedor .vertical{
+  width: 197px;
+  height:350px;
+  border: 10px solid rgb(95, 34, 145);
+  display: flex;
+
+}
+
 
 /* Utilidades */
 .flex {
